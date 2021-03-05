@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.visually-hidden{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.SearchBar{
+  margin-top: 5px;
+  padding: 10px;
+  position:absolute;
+}
+
+#searchButton{
+  text-align: center;
+  height:auto;
+  width: 120px;
+  height: 30px;
+  background-color: #000 ;
+  color: white;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+form{
+  position: fixed;
+  top: 40%;
+  left: 40%;
+}
+
+input{
+  background-color: #f9f3f3;
+  color: black;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+ul{
+  position: fixed;
+  top: 45%;
+  left: 40%;
+  font-size: 26px;
+  font-weight: bold;
+}
